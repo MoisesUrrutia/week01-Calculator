@@ -1,11 +1,22 @@
-# Build output
-*.exe
+# MSVC build files
 *.obj
+*.exe
 *.pdb
 *.ilk
+*.lib
+*.exp
 
 # Build folders
 build/
+Debug/
+Release/
+x64/
+x86/
 
-# Visual Studio Code (optional)
+# Visual Studio Code
 .vscode/
+
+# CMake (later)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
